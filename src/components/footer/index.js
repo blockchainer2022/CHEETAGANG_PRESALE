@@ -34,7 +34,8 @@ const Index = ({ totalSupply, maxSupply }) => {
                 <i className="fab fa-twitter mr-2"></i>Join Our Twitter
               </a>
             </li>
-            {totalSupply === maxSupply ? (
+
+            {totalSupply && totalSupply === maxSupply ? (
               <li class="list-inline-item">
                 <a class="btn" href="#">
                   <img class="mr-2" src={OpenSea} alt="" />
