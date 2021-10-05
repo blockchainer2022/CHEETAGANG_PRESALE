@@ -2,6 +2,9 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #fff;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 img {
   max-width: 100%;
@@ -243,6 +246,7 @@ header .navbar-dark .navbar-nav.social-media .nav-item {
 
 .mint-box-logo img {
   border-radius: 0 5px 0 0;
+  max-width: 100%;
 }
 
 .mint-box-title {
